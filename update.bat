@@ -1,5 +1,5 @@
 @echo off
-set /p commit_message="Enter commit message: "
+set commit_message="Updated"
 
 git add .
 git commit -m "%commit_message%"
